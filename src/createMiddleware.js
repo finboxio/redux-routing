@@ -1,5 +1,6 @@
 import querystring from 'querystring'
 import url from 'url'
+import assign from 'object-assign'
 
 export default function createMiddleware (History) {
   return store => {
@@ -29,7 +30,8 @@ export default function createMiddleware (History) {
         query = querystring.parse(parsed.query)
       }
 
-      const result = next(Object.assign({}, action, {
+      const result = next(assign({},
+        action, {
         href: url.format(location),
         location,
         query

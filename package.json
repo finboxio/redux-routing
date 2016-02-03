@@ -4,6 +4,7 @@
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
   "dependencies": {
+    "object-assign": "^4.0.1",
     "path-parser": "^0.3.2"
   },
   "devDependencies": {
