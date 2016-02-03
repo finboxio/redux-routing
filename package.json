@@ -1,5 +1,5 @@
 {
-  "name": "redux-routing",
+  "name": "finboxio-redux-routing",
   "description": "Universal routing built on top of redux",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
@@ -43,7 +43,7 @@
     "url": "https://github.com/callum/redux-routing/issues"
   },
   "homepage": "https://github.com/callum/redux-routing",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "files": [
     "lib",
     "src",
